@@ -14,7 +14,7 @@ return (
         <div className='w-full h-[60px] bg-[#E24430] border-black border-b-6 box-border relative flex items-center justify-center'>
             <h1 className='font-black text-2xl'>SAKAB</h1>
             <div className='absolute top-0 left-0 w-16 h-full cursor-pointer flex items-center justify-center' onClick={() => setIsOpen(!isOpen)}>
-                <Image src={isOpen ? '/close.svg' : '/open.svg'} alt="button" width={24} height={24} />
+                <Image src={isOpen ? '/icons/close.svg' : '/icons/open.svg'} alt="button" width={24} height={24} />
             </div>
         </div>
         {/* Navigation sidebar */}

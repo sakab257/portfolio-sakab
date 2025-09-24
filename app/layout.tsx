@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`${chivo.variable} antialiased bg-[#FFD7BF]`}
+        className={`${chivo.variable} antialiased bg-[#FFD7BF] h-full `}
       >
         <GridBackground />
         <Header />
