@@ -4,9 +4,9 @@ import { FolderOpen, SendHorizontal, Library, Info } from 'lucide-react'
 import ButtonStyled from '../ui/button-styled'
 
 const links = [
-    { href:"#", label:"Experiences", icon: FolderOpen },
-    { href:"#", label:"Projets", icon: Library },
-    { href:"#", label:"A propos", icon: Info },
+    { href:"/experiences", label:"Experiences", icon: FolderOpen },
+    { href:"/project", label:"Projets", icon: Library },
+    { href:"/info", label:"A propos", icon: Info },
 ]
 
 const Navigation = () => {
@@ -26,7 +26,7 @@ const Navigation = () => {
             color="#E24430"
             text="me contacter"
             icon={<SendHorizontal />}
-            href="#"
+            href="/contact"
         />
     </nav>
   )

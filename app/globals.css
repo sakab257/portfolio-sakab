@@ -119,6 +119,31 @@
     background-size: 40px 40px;
   }
 
+.grid-background2 {
+  background-image:
+      linear-gradient(rgba(0, 0, 0, 0.05) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(0,0,0,0.05) 1px, transparent 1px);
+    background-size: 20px 20px;
+}
+
+@keyframes jump-in {
+  0% {
+    transform: scale(0);
+  }
+  50% {
+    transform: scale(1.25);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.animate-jump-in {
+  animation-name: jump-in;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
