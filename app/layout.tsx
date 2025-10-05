@@ -17,9 +17,10 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <body
-        className={`min-h-screen w-full bg-[#000319] text-white ${roboto.className} p-6 antialiased`}
+        className={`min-h-screen w-full bg-[#000319] text-white ${roboto.className} antialiased overflow-hidden`}
       >
-        <Image src="/vfx/spotlight.png" alt="Spotlight" fill className='object-cover object-center absolute pointer-events-none' />
+        <Image src="/vfx/spotlight.png" alt="Spotlight" width={1280} height={720} className='w-full h-full xl:w-[1280px] xl:h-[720px] object-cover object-center absolute top-0 xl:right-0 pointer-events-none xl:animate-pulse' />
+        <Image src="/vfx/spotlight.png" alt="Spotlight" width={1280} height={720} className='object-cover object-center hidden xl:block absolute xl:top-0 xl:left-0 pointer-events-none scale-x-[-1] xl:animate-pulse' />
         <Navbar />
         {children}
       </body>
