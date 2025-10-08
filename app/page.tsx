@@ -14,7 +14,7 @@ export default function Home() {
         <CompanyCard imageUrl="/company/cdc.svg" />
         <CompanyCard imageUrl="/company/orange.svg" />
       </div>
-    <Link href="/projets"><Button label="Voir mes Projets" icon={<ArrowUpRight />}/></Link>
+    <Link href="/projets"><Button label="Voir mes projets" icon={<ArrowUpRight />}/></Link>
     </div>
   );
 }
