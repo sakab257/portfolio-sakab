@@ -1,4 +1,4 @@
-import Button from "@/components/ui/button";
+import {Button} from "@/components/ui/button";
 import CompanyCard from "@/components/ui/company-cards";
 import Link from "next/link";
 import {ArrowUpRight} from "lucide-react"
