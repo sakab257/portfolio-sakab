@@ -8,7 +8,7 @@ import React from 'react'
 const About = () => {
   return (
     <>
-      <div className='w-full h-full grid grid-cols-1 xl:grid-cols-2 xl:w-[800px] gap-4 pb-8 mx-auto place-items-center xl:grid-rows-3'>
+      <div className='w-full h-full grid grid-cols-1 xl:grid-cols-2 xl:w-[800px] gap-4 mx-auto place-items-center xl:grid-rows-3'>
         <TechStack />
         <Disponible />
         <Passion />
