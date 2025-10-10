@@ -52,15 +52,15 @@ const ProjectList = () => {
             {name:"React2",url:"/projets/React.svg"},
             {name:"React3",url:"/projets/React.svg"}]}
           />
-          <ProjectCard title='Java E-com' link='/' description='
-           permet aux grimpeurs de parcourir, sélectionner et acheter tout l&pos;équipement d&pos;escalade avec un système de paiement fluide.
+          <ProjectCard title='Jav&apos;Grympe' link='https://github.com/sakab257/jav-grympe' description='
+          Jav&apos;Grympe permet aux grimpeurs de parcourir, sélectionner et acheter tout l&pos;équipement d&pos;escalade avec un système de paiement fluide.
           ' imageUrl='/projets/test-project.svg' techno={[
             {name:"React",url:"/projets/React.svg"},
             {name:"React1",url:"/projets/React.svg"},
             {name:"React2",url:"/projets/React.svg"},
             {name:"React3",url:"/projets/React.svg"}]}
           />
-          <ProjectCard title='PlagiC' link='/' description='
+          <ProjectCard title='PlagiC' link='https://github.com/sakab257/plagic' description='
           PlagiC permet d&apos;analyser, comparer et mesurer la similarité entre fichiers C avec des algorithmes de détection performants.
           ' imageUrl='/projets/test-project.svg' techno={[
             {name:"React",url:"/projets/React.svg"},
