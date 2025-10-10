@@ -20,10 +20,10 @@ const ProjectCard = ({imageUrl, title, link, description, techno}:ProjectCardPro
             <div className='w-full h-[250px] rounded-xl bg-gradient-to-r from-[#6971A2]/16 to-[#272A3C] z-10 relative overflow-hidden'>
                 <Image src={imageUrl || '/projets/test-project.svg'} alt="project" width={400} height={400}  className='absolute bottom-0'/>
             </div>
-            <div className='w-full h-fit z-10 mt-2'>
+            <div className='w-full h-[150px] z-10 mt-2'>
                 <div className='w-full flex justify-between items-center'>
                     <h2 className='text-xl font-bold'>{title}</h2>
-                    <Link href={link || '/'} className='text-xs flex items-center gap-1 text-[#D4B7FF]'>Voir le projet <ArrowUpRight className='size-3'/></Link>
+                    <Link target='_blank' href={link || '/'} className='text-xs flex items-center gap-1 text-[#D4B7FF]'>Voir le projet <ArrowUpRight className='size-3'/></Link>
                 </div>
                 <p className='text-xs text-[#C1C2D3]'>{description}</p>
                 <div className='w-full h-[50px] mt-2 flex items-center justify-center gap-2'>
