@@ -47,7 +47,7 @@ const ContactPage = () => {
         Vous souhaitez me <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#CBACF9] to-[#D4B7FF]">contacter</span> ?
       </h1>
       <p className="text-center text-[#C1C2D3]/70 text-sm md:text-base mb-8">
-        Remplissez le formulaire ci-dessous pour m'envoyer un mail automatiquement
+        Remplissez le formulaire ci-dessous pour m&apos;envoyer un mail automatiquement
       </p>
       <div className='w-full h-full flex flex-col gap-4 mt-6'>
         <Input
